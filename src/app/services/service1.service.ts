@@ -8,7 +8,7 @@ export class Service1Service {
 
   constructor(private http: HttpClient) { }
 
-  baseUrl: string = 'https://random-data-api.com/api/';
+  public baseUrl: string = 'https://random-data-api.com/api/';
 
   getFoods() {
     let options = { headers: new HttpHeaders().set('Content-Type', 'application/json') };

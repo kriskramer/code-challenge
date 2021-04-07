@@ -20,7 +20,7 @@ import { Page2Component } from './components/page2/page2.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule    
   ],
   providers: [],
   bootstrap: [AppComponent]
